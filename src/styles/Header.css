@@ -1,0 +1,31 @@
+.happycow-header {
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.happycow-header section {
+  display: flex;
+  border: 1px solid black;
+}
+.happycow-header nav {
+  border: solid 3px green;
+}
+
+.happycow-header img {
+  height: 50px;
+  border: 1px solid black;
+}
+
+.happycow-header li {
+  margin-right: 25px;
+  list-style: none;
+}
+
+.happycow-header ul {
+  display: flex;
+  margin-right: 25px;
+  list-style: none;
+}
