@@ -4,7 +4,7 @@ import "../styles/Header.css";
 const Header = () => {
   return (
     <div className="happycow-header">
-      <img src={happycow} />
+      <img alt="happycow" src={happycow} />
       <nav>
         <section>
           <li>Explore</li>
