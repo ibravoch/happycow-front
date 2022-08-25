@@ -1,0 +1,58 @@
+.pagination {
+  display: flex;
+}
+footer {
+  border-top: 1px solid lightgrey;
+  margin-top: 50px;
+}
+
+.bottom {
+  background-color: rgb(166, 40, 195);
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.bottom ul {
+  display: flex;
+}
+.top-footer {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.top-footer h3,
+ul,
+li {
+  text-align: center;
+}
+
+ul h3 {
+  color: rgb(156, 77, 230);
+}
+.top-footer li {
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(133, 131, 131);
+  margin-top: 10px;
+}
+
+.bottom li {
+  margin: 0 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+@media (max-width: 700px) {
+  .pagination {
+    flex-direction: column;
+  }
+  .bottom ul {
+    flex-direction: column;
+  }
+  .bottom li {
+    margin: 5px 0;
+  }
+  .top-footer {
+    width: 100%;
+  }
+}

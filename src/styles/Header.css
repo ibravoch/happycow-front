@@ -52,6 +52,7 @@ li {
   .visible {
     display: block;
     position: relative;
+    margin: 0 10px;
   }
   .nav {
     display: none;
@@ -65,6 +66,9 @@ li {
     border-radius: 5px;
     left: 70px;
     color: white;
+  }
+  .left-header {
+    width: 40%;
   }
 }
 

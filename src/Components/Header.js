@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import happycow from "../assets/happycow.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/Header.css";
 const Header = () => {
+  const navigate = useNavigate();
   const [menu, setMenu] = useState(false);
   const [search, setSearch] = useState(false);
   console.log(menu);
@@ -11,7 +13,7 @@ const Header = () => {
     <header>
       <section className="header">
         <div className="left-header">
-          <img src={happycow} />
+          <img src={happycow} onClick={() => navigate("/")} />
           <nav className="nav">
             <li>Explore</li>
             <li>Forum</li>
